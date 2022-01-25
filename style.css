@@ -1,0 +1,105 @@
+.img {
+    margin: 4px;
+}
+
+.flagImg {
+    margin-top: 4px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.spacer {
+    height: 20px;
+}
+
+.center {
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 25%;
+}
+
+.gap {
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.grid {
+    width: 900px;
+    height : 480px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(192, 192, 192);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.grid div {
+    width: 30px;
+    height: 30px;
+}
+
+.mine {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+}
+
+.flagged {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+}
+
+.zero {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+}
+
+.one {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+    color: blue;
+}
+
+.two {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+    color: green;
+}
+
+.three {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+    color: red;
+}
+
+.four {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+    color: navy;
+}
+
+.five {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+    color: maroon;
+}
+
+.six {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+    color: teal;
+}
+
+.seven {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+    color: black;
+}
+
+.eight {
+    box-shadow: -1px -1px 1px rgb(129, 127, 127);
+    color: rgb(107, 107, 107);
+}
+
+.unrevealed {
+    box-shadow: -3px -3px 0px rgb(105, 105, 105);
+    background-color: rgb(173, 173, 173);
+}

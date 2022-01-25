@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'> 
+    <head>
+        <meta charset="utf-8">
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="style.css"></link>
+        <title>Minesweeper</title>
+    </head>
+    <body>
+        <div class='center'>
+            <div class='header'>
+                <div>
+                    <div class="spacer"></div>
+                    <img class='img' id="img" src="mine.png" width="20" height="20">
+                </div>
+                <h3>mines: <span id='flagCounter'>0</span></h3>
+                <div>
+                    <div class="spacer"></div>
+                    <img class='flagImg' id="flagImg" src="flag.png" width="20" height="20">
+                </div>  
+            </div>
+            <div class='gap' id='gap'></div>
+            <div class='grid' id='grid'></div>
+            <script>
+                for (i=1; i<=480; i++) {
+                    g = "<div></div>";
+                    document.getElementById("grid").innerHTML += g;
+                }
+            </script>
+        </div>
+    </body>
+</html>
